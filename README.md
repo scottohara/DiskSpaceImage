@@ -12,8 +12,7 @@ etc.) would put their branding.
 
 The path of the image is stored in the following registry key:
 
-    HKLM\Software\Microsoft\Windows\CurrentVersion\Media Center\Start
-Menu\OEMLogoURI
+    HKLM\Software\Microsoft\Windows\CurrentVersion\Media Center\Star Menu\OEMLogoURI
 
 So the basic premise is that the service regenerates the image
 periodically with the current available space, and writes it to the
@@ -24,7 +23,7 @@ UI.
 Installing
 ==========
 1. Drop the DiskSpaceImage.exe file somewhere on your local drive (eg.
-C:\Program Files\DiskSpaceImage\DiskSpaceImage.exe.
+C:\Program Files\DiskSpaceImage\DiskSpaceImage.exe).
 
 2. Edit the setup.bat file and check that the path to your installation of
 the .Net Framework 2.0 and to the DiskSpaceImage.exe is correct.
