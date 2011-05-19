@@ -1,0 +1,10 @@
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImagePreview\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImagePreview\obj\Debug\ScoWare.Preview.resources
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImagePreview\obj\Debug\DiskSpaceImagePreview.Properties.Resources.resources
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImagePreview\obj\Debug\DiskSpaceImagePreview.csproj.GenerateResource.Cache
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImagePreview\bin\Debug\DiskSpaceImagePreview.exe
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImagePreview\bin\Debug\DiskSpaceImagePreview.pdb
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImagePreview\bin\Debug\DiskSpaceImage.exe
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImagePreview\bin\Debug\DiskSpaceImage.pdb
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImagePreview\obj\Debug\DiskSpaceImagePreview.exe
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImagePreview\obj\Debug\DiskSpaceImagePreview.pdb

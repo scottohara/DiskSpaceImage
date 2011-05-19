@@ -1,0 +1,34 @@
+﻿Installing assembly 'C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe
+   logfile = C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.InstallLog
+Installing service DiskSpaceImage...
+Service DiskSpaceImage has been successfully installed.
+Creating EventLog source DiskSpaceImage in log Application...
+Committing assembly 'C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe
+   logfile = C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.InstallLog
+Installing assembly 'C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe
+   logfile = C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.InstallLog
+Installing service DiskSpaceImage...
+Creating EventLog source DiskSpaceImage in log Application...
+Rolling back assembly 'C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe
+   logfile = C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.InstallLog
+Restoring event log to previous state for source DiskSpaceImage.
+Uninstalling assembly 'C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe
+   logfile = C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.InstallLog
+Removing EventLog source DiskSpaceImage.
+Service DiskSpaceImage is being removed from the system...
+Service DiskSpaceImage was successfully removed from the system.

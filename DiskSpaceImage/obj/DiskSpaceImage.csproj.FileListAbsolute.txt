@@ -1,0 +1,6 @@
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe.config
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.pdb
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\obj\Debug\DiskSpaceImage.exe
+C:\Documents and Settings\ScottO.NEXTGEN\My Documents\Visual Studio 2005\Projects\DiskSpaceImage\DiskSpaceImage\obj\Debug\DiskSpaceImage.pdb
