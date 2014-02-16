@@ -47,6 +47,9 @@ namespace ScoWare
                    ConfigurationManager.AppSettings["ImageName"],
                    Convert.ToBoolean(ConfigurationManager.AppSettings["ShowVolumeLabel"]));
 
+            // Write out the image
+            this.OnTimedEvent(null, null);
+
             // Setup a timer to fire every X milliseconds
             this.t = new Timer((Convert.ToDouble(ConfigurationManager.AppSettings["TimerInterval"])));
             this.log.WriteEntry("Refresh interval set to " + this.t.Interval + "ms", EventLogEntryType.Information);

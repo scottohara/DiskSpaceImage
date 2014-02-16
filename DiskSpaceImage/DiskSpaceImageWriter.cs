@@ -56,6 +56,14 @@ namespace ScoWare
 
         public void RenderImage()
         {
+            // Re-initialise the image to the specified size
+            this.displayBitmap = new Bitmap(this.displayBitmap.Width, this.displayBitmap.Height);
+            this.displayBitmap.MakeTransparent();
+
+            // Re-initialise the graphics object
+            this.displayImage = Graphics.FromImage(this.displayBitmap);
+            this.displayImage.TextRenderingHint = TextRenderingHint.AntiAlias;
+
             // Clear the display string
             this.displayString = String.Empty;
 
