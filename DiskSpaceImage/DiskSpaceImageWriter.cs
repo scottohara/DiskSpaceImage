@@ -10,7 +10,6 @@ namespace ScoWare
 {
     public class DiskSpaceImageWriter
     {
-        private DriveInfo[] allDrives;
         private string displayString;
         private Bitmap displayBitmap;
         private Font displayFont;
@@ -32,9 +31,6 @@ namespace ScoWare
 
         public DiskSpaceImageWriter(int imageWidth, int imageHeight, string fontName, float fontSize, string fontColour, string imageName, Boolean showVolumeLabel)
         {
-            // Get the list of disk drives
-            this.allDrives = DriveInfo.GetDrives();
-
             // Initialise the image to the specified size
             this.displayBitmap = new Bitmap(imageWidth, imageHeight);
             this.displayBitmap.MakeTransparent();
@@ -67,11 +63,8 @@ namespace ScoWare
             // Clear the display string
             this.displayString = String.Empty;
 
-            Double totalFreeSpace;
-            Double totalSize;
-
             // Loop through the collection
-            foreach (DriveInfo d in this.allDrives)
+            foreach (DriveInfo d in DriveInfo.GetDrives())
             {
                 // Only interested in fixed drives
                 if (d.IsReady == true && d.DriveType == DriveType.Fixed)
@@ -82,62 +75,41 @@ namespace ScoWare
                     {
                         this.displayString += " (" + d.VolumeLabel + ")";
                     }
-                    this.displayString += ": ";
-
-                    totalFreeSpace = Convert.ToDouble(d.TotalFreeSpace);
-                    totalSize = Convert.ToDouble(d.TotalSize);
-
-                    // Determine the appropriate unit of measure (ie. GB, MB, KB)
-                    if (totalFreeSpace >= GB)
-                    {
-                        totalFreeSpace = totalFreeSpace / GB;
-                        this.displayString += totalFreeSpace.ToString("0.0") + "GB";
-                    }
-                    else if (totalFreeSpace >= MB)
-                    {
-                        totalFreeSpace = totalFreeSpace / MB;
-                        this.displayString += totalFreeSpace.ToString("0.0") + "MB";
-                    }
-                    else if (totalFreeSpace >= KB)
-                    {
-                        totalFreeSpace = totalFreeSpace / KB;
-                        this.displayString += totalFreeSpace.ToString("0.0") + "KB";
-                    }
-                    else
-                    {
-                        this.displayString += totalFreeSpace.ToString() + "bytes";
-                    }
-
-                    this.displayString += "/";
-
-                    // Determine the appropriate unit of measure (ie. GB, MB, KB)
-                    if (totalSize >= GB)
-                    {
-                        totalSize = totalSize / GB;
-                        this.displayString += totalSize.ToString("0.0") + "GB";
-                    }
-                    else if (totalSize >= MB)
-                    {
-                        totalSize = totalSize / MB;
-                        this.displayString += totalSize.ToString("0.0") + "MB";
-                    }
-                    else if (totalSize >= KB)
-                    {
-                        totalSize = totalSize / KB;
-                        this.displayString += totalSize.ToString("0.0") + "KB";
-                    }
-                    else
-                    {
-                        this.displayString += totalSize.ToString() + "bytes";
-                    }
-
-                    // Add a CRLF
-                    this.displayString += "\r\n";
+                    this.displayString += ": " + this.capacityToString(Convert.ToDouble(d.TotalFreeSpace)) + "/" + this.capacityToString(Convert.ToDouble(d.TotalSize)) + "\r\n";
                 }
             }
 
             // Write out the string as an image
             this.displayImage.DrawString(displayString, displayFont, displayBrush, 0.0F, 0.0F);
+        }
+
+        private string capacityToString(Double capacity)
+        {
+            string unitOfMeasure;
+
+            // Determine the appropriate unit of measure (ie. GB, MB, KB)
+            if (capacity >= GB)
+            {
+                capacity = capacity / GB;
+                unitOfMeasure = "GB";
+                
+            }
+            else if (capacity >= MB)
+            {
+                capacity = capacity / MB;
+                unitOfMeasure = "MB";
+            }
+            else if (capacity >= KB)
+            {
+                capacity = capacity / KB;
+                unitOfMeasure = "KB";
+            }
+            else
+            {
+                unitOfMeasure = "bytes";
+            }
+
+            return capacity.ToString("0.0") + unitOfMeasure;
         }
 
         public void SaveImage()

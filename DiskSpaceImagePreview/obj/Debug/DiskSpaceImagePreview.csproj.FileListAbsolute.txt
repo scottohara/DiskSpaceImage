@@ -1,0 +1,11 @@
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImagePreview\obj\Debug\DiskSpaceImagePreview.exe
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImagePreview\obj\Debug\DiskSpaceImagePreview.pdb
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImagePreview\bin\Debug\DiskSpaceImagePreview.exe.config
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImagePreview\bin\Debug\DiskSpaceImagePreview.exe
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImagePreview\bin\Debug\DiskSpaceImagePreview.pdb
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImagePreview\bin\Debug\DiskSpaceImage.exe
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImagePreview\bin\Debug\DiskSpaceImage.pdb
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImagePreview\obj\Debug\DiskSpaceImagePreview.csprojResolveAssemblyReference.cache
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImagePreview\obj\Debug\ScoWare.Preview.resources
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImagePreview\obj\Debug\DiskSpaceImagePreview.Properties.Resources.resources
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImagePreview\obj\Debug\DiskSpaceImagePreview.csproj.GenerateResource.Cache

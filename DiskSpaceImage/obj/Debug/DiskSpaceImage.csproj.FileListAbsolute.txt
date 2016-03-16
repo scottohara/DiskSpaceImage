@@ -1,0 +1,6 @@
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe.config
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.exe
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImage\bin\Debug\DiskSpaceImage.pdb
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImage\obj\Debug\DiskSpaceImage.csprojResolveAssemblyReference.cache
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImage\obj\Debug\DiskSpaceImage.exe
+C:\Users\scotto.NEXTGEN\Source\Repos\DiskSpaceImage\DiskSpaceImage\obj\Debug\DiskSpaceImage.pdb
